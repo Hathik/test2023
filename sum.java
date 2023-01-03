@@ -8,5 +8,6 @@ class sum
         sum = a+b;
         System.out.println(a+b); //summation
         System.out.println(sum);
+        System.out.println(a+b+c+d);
     }
 }
