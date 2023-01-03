@@ -429,4 +429,33 @@ Fast-forward
  1 file changed, 1 insertion(+)
 
 cscuser@DESKTOP-44T715M MINGW64 ~/Desktop/2019CSC005/test2023 (main)
+$ git stash pop stash@{0}
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   sub.java
+
+Dropped stash@{0} (b7033ffac428a257bff2944f1c56ecd03518d283)
+
+cscuser@DESKTOP-44T715M MINGW64 ~/Desktop/2019CSC005/test2023 (main)
+$ git commit -m "sub file added"
+[main 904c29c] sub file added
+ 1 file changed, 8 insertions(+)
+ create mode 100644 sub.java
+
+cscuser@DESKTOP-44T715M MINGW64 ~/Desktop/2019CSC005/test2023 (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 437 bytes | 437.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Hathik/test2023.git
+   d86148c..904c29c  main -> main
+
+cscuser@DESKTOP-44T715M MINGW64 ~/Desktop/2019CSC005/test2023 (main)
 $
+
